@@ -939,3 +939,15 @@ public class WebPageTest
         driver.quit(); 
     } 
 } 
+
+
+
+
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class": 'com.example.Main'
+        )
+    }
+
